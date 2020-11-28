@@ -1,0 +1,108 @@
+@font-face {
+    font-family: SecNavfont;
+    src: url('../assets/fonts/Roboto-Bold.ttf')
+  }
+  @font-face {
+    font-family: PriNavfont;
+    src: url('../assets/fonts/Roboto-Medium.ttf')
+  }
+  @font-face {
+    font-family: Contentsfont;
+    src: url('../assets/fonts/Roboto-Regular.ttf')
+  }
+
+.sec-nav {
+    font: 12px SecNavfont, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 0;
+    border-bottom: 3px solid #3BD100;
+}
+.pri-nav {
+    font: 12px PriNavfont, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+ .pri-nav ul {
+    display: flex;
+    align-items: center;
+}
+.pri-nav ul li {
+    margin-right: 30px;
+}
+.pri-nav ul li:first-child {
+    margin-right: 150px;
+} 
+header a {
+    text-decoration: none;
+    color: #000000;
+}
+header a:hover {
+    color: #3BD100;
+}
+
+/* ANCHOR banner css */
+.banner img{
+    display: block;
+    max-width: 100%;
+}
+.banner figure {
+    position: relative;
+}
+.banner figcaption {
+    max-width: 520px;
+    padding: 50px 30px;
+    background: rgba(0,0,0,.5);
+    color: #fff;
+    font-size: 32px;
+    line-height: 64px;
+    text-align: center;
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* ANCHOR categs css */
+.categs {
+    display: flex;
+    align-items: center;
+    margin: 20px 20px;
+}
+.categs figure {
+    font: 12px Contentsfont, sans-serif;
+    width: 33.33%;
+    height: 280px;
+    margin: 10px;
+    background: url("../assets/img/content.svg");
+    position: relative;
+}
+.categs img {
+    left: 50%;
+    /* position: static; */
+    transform: translate(55%,10%);
+}
+.categs figcaption {
+    padding: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 200;
+    position: absolute;
+    top: 30%;
+}
+.categ2 {
+    color:#3BD100;
+    font-size: 16px;
+}
+.categ3 {
+    color: #000;
+}
+/* .contents svg {
+    font: 12px Contentsfont, sans-serif;
+    width: 33.33%;
+    height: 280px;
+    margin: 10px;
+    background: url("../assets/img/content.svg");
+} */
