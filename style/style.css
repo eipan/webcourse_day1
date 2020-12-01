@@ -11,6 +11,10 @@
     src: url('../assets/fonts/Roboto-Regular.ttf')
   }
 
+  body {
+      font-family: 12px Contentsfont, sans-serif;
+  }
+
 .sec-nav {
     font: 12px SecNavfont, sans-serif;
     display: flex;
@@ -106,3 +110,149 @@ header a:hover {
     margin: 10px;
     background: url("../assets/img/content.svg");
 } */
+
+/* ANCHOR pop-designs css */
+.pop-designs h2 {
+    padding-top: 20px;
+    font:  900 24px SecNavfont, sans-serif;
+    text-align: center;
+    line-height: 50px;
+    content: ""; 
+    display: block; 
+    margin: 0 auto; 
+    width: 20%; 
+    border-bottom: solid #3BD100;
+}
+.pop-designs p {
+    text-align: center;
+    padding: 30px 150px 20px 150px;
+}
+.pop-designs1 {
+    display: flex;
+    align-items: center;
+    margin: 40px 100px 80px 100px;
+    
+}
+.pop-designs1 figure {
+    font: 12px Contentsfont, sans-serif;
+    width: 25%;
+    height: 250px;
+    margin: 10px;
+    background: url("../assets/img/content.svg");
+    position: relative;
+}
+.pop-designs1 img {
+    padding: 5% 10%; 
+}
+.pop-designs1 figcaption {
+    padding: 15px 46px 10px 15px;
+}
+.pop-designs1 figcaption div:first-child {
+    font: bold 14px PriNavfont, sans-serif;
+}
+.pop-designs1 figcaption div:last-child {
+    font-size: 15px;
+    padding-top: 10px;
+    color: #616161;
+}
+
+button {
+    margin: 100px auto 30px;
+    display: flex;
+    font: 12px SecNavfont, sans-serif;
+    background-color: #fff; 
+    padding: 7px 50px;
+}
+
+.service {
+    font: 18px SecNavfont, sans-serif;
+    background-image: linear-gradient(to right,#215F00,#000) ;
+    height: 80px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+}
+.service div {
+    margin: auto;
+    position: relative;
+}
+
+/* ANCHOR payment css */
+.payment {
+    display: flex;
+    align-items: center;
+    margin: 30px 100px;
+}
+.payment figure {
+    width: 80%;
+    height: 150px;
+    margin: 10px;
+    position: relative;
+}
+ .payment img {
+    background: green;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.payment figcaption {
+    padding: 15px;
+} 
+.payment figcaption div:first-child {
+    font: bold 14px PriNavfont, sans-serif;
+}
+.payment figcaption div:last-child {
+    font-size: 15px;
+    padding-top: 10px;
+    color: #B8B8B8;
+}
+
+/* ANCHOR footer */
+footer {
+    background-color: #111111;
+    height: 300px;
+    color: #fff;
+    
+}
+.footer-info {
+    margin: 30px 100px;
+    padding-top: 30px;
+    display: flex;
+    /* position: relative; */
+}
+.footer-info section{
+    /* font: 14px SecNavfont, sans-serif; */
+    width: 100%;
+    margin: 10px;
+    position: relative;
+}
+.footer-info section div{
+    font: 16px SecNavfont, sans-serif;
+}
+.footer-info section table {
+    margin-right: 40px;
+    color: #B8B8B8;
+}
+.footer-info section table td {
+    padding-top: 30px;
+}
+.footer-info section table td:first-child {
+    width: 25%;
+}
+
+.payment-logo img {
+    padding-top: 20px;
+    position: relative;
+}
+.footer-links {
+    color: #B8B8B8;
+    padding-top: 30px;
+}
+.footer-links li {
+    padding-bottom: 20px;
+}
+.copyright {
+    margin: 30px 110px;
+    display: flex;
+    color: #B8B8B8;
+}
